@@ -1,3 +1,31 @@
+/* global styling */
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* /global styling */
+
+/* header */
+
 header img {
     max-width: 200px;
 }
+
+header nav {
+    margin-top: 20px;
+}
+
+header nav a {
+    background-color: #1A437A;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+header nav a:hover {
+   color: #ffffff;
+}
+
+/* /header */
