@@ -20,7 +20,14 @@
                     <a href=""><img src="assets/logo apotheek website.png" alt="logo"></a>
                 </div>
                 <div class="row">
-                    
+                    <div class="col-sm-10 offset-sm-1">
+                        <nav class="d-flex justify-content-around">
+                            <a href="">Home</a>
+                            <a href="">Service</a>
+                            <a href="">Voorlichting</a>
+                            <a href="">Mijn APO</a>
+                        </nav>
+                    </div>
                 </div>
             </div>
         </div>
