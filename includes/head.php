@@ -12,3 +12,16 @@
 </head>
 
 <body>
+
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="offset-sm-1 col-sm-11">
+                    <a href=""><img src="assets/logo apotheek website.png" alt="logo"></a>
+                </div>
+                <div class="row">
+                    
+                </div>
+            </div>
+        </div>
+    </header>
