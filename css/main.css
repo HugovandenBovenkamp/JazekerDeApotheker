@@ -7,21 +7,24 @@ body {
 
 /* header */
 
+
 header img {
     max-width: 200px;
 }
 
 header nav {
-    margin-top: 20px;
+    margin: 20px 0;
 }
 
 header nav a {
     background-color: #1A437A;
     text-decoration: none;
     color: #ffffff;
-    padding: 10px 40px;
+    padding: 10px 60px;
     font-size: 18px;
     font-weight: 700;
+    border-radius: 8px;
+    margin: 0 10px;
 }
 
 header nav a:hover {
