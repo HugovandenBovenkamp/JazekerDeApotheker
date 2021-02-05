@@ -3,6 +3,10 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+h2 {
+    margin: 60px 0;
+}
+
 /* /global */
 
 /* header */
@@ -12,7 +16,7 @@ header img {
 }
 
 header nav {
-    margin: 20px 0;
+    margin: 60px 0;
 }
 
 header nav a {
@@ -34,7 +38,37 @@ header nav a:hover {
 
 /* homepage */
 
+.carousel-inner img {
+    max-height: 500px;
+    object-fit: cover;
+    object-position: 50% 10%;
+}
 
+.home-blocks-group {
+    margin-bottom: 30px;
+}
+
+.home-block {
+    padding: 150px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.home-block.block1 {
+    background: grey center/cover;
+}
+
+.home-block.block2 {
+    background: grey center/cover;
+}
+
+.home-block.block3 {
+    background: grey center/cover;
+}
+
+.home-block h3 {
+
+}
 
 /* /homepage */
 
