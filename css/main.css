@@ -1,4 +1,11 @@
 /* global */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 body {
     font-family: 'Raleway', sans-serif;
 }
@@ -20,19 +27,24 @@ header nav {
 }
 
 
-header nav a {
+header nav li a {
+    text-align: center;
     background-color: #1A437A;
     text-decoration: none;
     color: #ffffff;
-    padding: 10px 15px;
-    font-size: 18px;
+    padding: 15px 60px;
+    font-size: 23px;
     font-weight: 700;
     border-radius: 8px;
-    margin: 0 10px;
+    white-space: nowrap;
+}
+
+header li {
+    list-style: none;
 }
 
 header nav a:hover {
-   color: #ffffff;
+   color: #FFFFFF;
 }
 
 /* /header */
@@ -103,7 +115,9 @@ header nav a:hover {
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) { 
-
+    header nav li a {
+        padding: 15px 100px;
+    }
 }
 
 /* /media queries */

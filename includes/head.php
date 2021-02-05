@@ -22,27 +22,15 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-10 offset-sm-1">
-                        <nav>
-                            <div class="row">
-                                <div class="col-xs-12 col-sm-2 offset-sm-1">
-                                    <a href="">Home</a>
-                                </div>
-                                <div class="col-xs-12 col-sm-2">
-                                    <a href="">Service</a>
-                                </div>
-                                <div class="col-xs-12 col-sm-2">
-                                    <a href="">Voorlichting</a>
-                                </div>
-                                <div class="col-xs-12 col-sm-2">
-                                    <a href="">Mijn APO</a>
-                                </div>
-                                <div class="col-xs-12 col-sm-2">
-                                    <a href="">Contact</a>
-                                </div>
-                            </div>
+                        <nav class="d-flex justify-content-between">
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="service.php">Service</a></li>
+                            <li><a href="voorlichting.php">Voorlichting</a></li>
+                            <li><a href="mijnapo.php">Mijn APO</a></li>
+                            <li><a href="contact.php">Contact</a></li>
                         </nav>
                     </div>
                 </div>
             </div>
         </div>
-    </header>
+    </header>*
