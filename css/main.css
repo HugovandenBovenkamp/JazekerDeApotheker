@@ -15,11 +15,12 @@ header nav {
     margin: 20px 0;
 }
 
+
 header nav a {
     background-color: #1A437A;
     text-decoration: none;
     color: #ffffff;
-    padding: 10px 60px;
+    padding: 10px 15px;
     font-size: 18px;
     font-weight: 700;
     border-radius: 8px;
@@ -48,10 +49,10 @@ header nav a:hover {
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
-
+    
 }
 
-/* // Medium devices (tablets, 768px and up) */
+/* // Medium devices (tablets, 768px and up ) */
 @media (min-width: 768px) { 
 
 }
