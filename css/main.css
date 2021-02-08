@@ -14,6 +14,22 @@ h2 {
     margin: 60px 0;
 }
 
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #fff;
+}
+
+.row.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
 /* /global */
 
 /* header */
@@ -68,6 +84,7 @@ header nav a:hover {
     padding: 150px 0;
     display: flex;
     justify-content: center;
+    border-radius: 8px;
 }
 
 .home-block.block1 {
@@ -83,7 +100,15 @@ header nav a:hover {
 }
 
 .home-block h3 {
+    color: #fff;
+    
+}
 
+.item-border {
+    border: 1px solid grey;
+    padding: 15px;
+    margin-bottom: 30px;
+    height: 80%; /*Can cause problems*/
 }
 
 /* /homepage */
