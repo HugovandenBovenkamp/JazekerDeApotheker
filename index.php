@@ -27,7 +27,7 @@
   </div>
   <div class="row">
     <div class="col-xs-12 col-sm-10 offset-sm-1">
-      <h2>Onze service</h2>
+      <h2 class="text-center">Jazeker de Apotheker</h2>
       <div class="home-blocks-group">
         <div class="row">
           <div class="col-xs-12 col-sm-4">
@@ -37,7 +37,7 @@
           </div>
           <div class="col-xs-12 col-sm-4">
             <div class="home-block block2">
-              <h3>Medicijneoverzicht</h3>
+              <h3>Medicijnenoverzicht</h3>
             </div>
           </div>
           <div class="col-xs-12 col-sm-4">

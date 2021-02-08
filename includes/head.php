@@ -17,20 +17,21 @@
     <header>
         <div class="container-fluid">
             <div class="row">
-                <div class="offset-sm-1 col-sm-11">
+                <div class="col-xs-12 offset-sm-1 col-sm-10">
                     <a href=""><img src="assets/logo apotheek website.png" alt="logo"></a>
+                    <span class="d-flex justify-content-center">Jazeker de Apotheker</span>
                 </div>
-                <div class="row">
-                    <div class="col-sm-10 offset-sm-1">
-                        <nav class="d-flex justify-content-between">
-                            <li><a href="index.php">Home</a></li>
-                            <li><a href="service.php">Service</a></li>
-                            <li><a href="voorlichting.php">Voorlichting</a></li>
-                            <li><a href="mijnapo.php">Mijn APO</a></li>
-                            <li><a href="contact.php">Contact</a></li>
-                        </nav>
-                    </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-10 offset-sm-1">
+                    <nav class="d-flex justify-content-between">
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="service.php">Service</a></li>
+                        <li><a href="voorlichting.php">Voorlichting</a></li>
+                        <li><a href="mijnapo.php">Mijn APO</a></li>
+                        <li><a href="contact.php">Contact</a></li>
+                    </nav>
                 </div>
             </div>
         </div>
-    </header>*
+    </header>
