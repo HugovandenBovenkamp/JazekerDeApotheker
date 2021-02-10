@@ -6,7 +6,7 @@
     <div class="row">
         <div class="service-content col-10 offset-1 border border-dark">
             <div>
-                <h3 class="text-center">Diensten</h3>
+                <h3>Diensten</h3>
                 <p>De teams van onze Jazeker Apotheken staan graag voor u klaar. In onze dienstverlening staat u dan
                     ook
                     centraal. We willen u graag zekerheid en veel gemak bieden. Bij Jazeker de apotheker, hebben wij
@@ -23,7 +23,7 @@
             </div>
             <br>
             <div>
-                <h3 class="text-center">De online diensten van uw apotheek :</h4>
+                <h3>De online diensten van uw apotheek :</h4>
                 <p>Ga naar <a href="contact.php">Contact</a> en leg contact met ons, zodat wij u online kunnen helpen.</p>
                 <p>Volg de instructies en schrijf u in.</p>
             </div>
