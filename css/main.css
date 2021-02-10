@@ -131,6 +131,11 @@ header nav a:hover {
     color: black;
 }
 
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+}
+
 /* /Voorlichting pagina */
 
 
