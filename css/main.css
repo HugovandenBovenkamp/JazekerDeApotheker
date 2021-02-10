@@ -125,6 +125,14 @@ header nav a:hover {
 
 /* /Servicepagina */
 
+/* Voorlichting pagina */
+
+.voorlichting-content {
+    color: black;
+}
+
+/* /Voorlichting pagina */
+
 
 /* media queries */
 
@@ -158,6 +166,14 @@ header nav a:hover {
     }
 
     .service-content h3 {
+       text-align: center;
+    }
+
+    .voorlichting-content {
+        margin-bottom: 20px;
+    }
+
+    .voorlichting-content h3 {
         text-align: center;
     }
 }
