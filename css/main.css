@@ -131,9 +131,19 @@ header nav a:hover {
     color: black;
 }
 
-.flex-container {
-    display: flex;
-    justify-content: space-around;
+
+
+.zoek-button {
+    text-align: center;
+    background-color: #1A437A;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+    border-radius: 8px;
+    white-space: nowrap;
+    min-width: 100px;
+    height: 30px;
+    border: none;
 }
 
 /* /Voorlichting pagina */
@@ -176,10 +186,15 @@ header nav a:hover {
 
     .voorlichting-content {
         margin-bottom: 20px;
+        text-align: center;
     }
 
     .voorlichting-content h3 {
         text-align: center;
+    }
+
+    .voorlichting-content .zoek-button {
+        margin-top: 15px;
     }
 }
 
