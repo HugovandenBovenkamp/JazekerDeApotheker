@@ -4,7 +4,7 @@ include("includes/head.php");
 
 <div class="container-fluid">
     <div class="row">
-        <div class="voorlichting-content col-10 offset-1 border border-dark">
+        <div class="voorlichting-content col-10 offset-1">
             <h3>Gezondheidsinformatie</h3>
             <p>In samenwerking met <a href="https://www.thuisarts.nl/">Thuisarts.nl</a> bieden wij u
                 gezondheidsinformatie.</p>

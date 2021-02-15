@@ -4,7 +4,7 @@
 
 <div class="container-fluid">
     <div class="row">
-        <div class="service-content col-10 offset-1 border border-dark">
+        <div class="service-content col-10 offset-1">
             <div>
                 <h3>Diensten</h3>
                 <p>De teams van onze Jazeker Apotheken staan graag voor u klaar. In onze dienstverlening staat u dan
