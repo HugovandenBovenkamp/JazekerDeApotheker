@@ -71,7 +71,6 @@ header nav a:hover {
 /* homepage */
 
 .carousel-inner img {
-    max-height: 500px;
     object-fit: cover;
     object-position: 50% 10%;
 }
@@ -140,6 +139,14 @@ header nav a:hover {
         display: block;
         min-width: 200px;
     }
+
+    .carousel-inner img {
+        height: 250px;
+    }
+
+    .maps {
+        height: 250px;
+    }
 }
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -147,6 +154,14 @@ header nav a:hover {
     header nav li a {
         padding: 10px 20px;
         font-size: 16px;
+    }
+
+    .carousel-inner img {
+        height: 250px;
+    }
+
+    .maps {
+        height: 250px;
     }
 }
 
@@ -171,6 +186,14 @@ header nav a:hover {
     header nav li a {
         padding: 15px 50px;
         font-size: 16px;
+    }
+
+    .carousel-inner img {
+        height: 400px;
+    }
+
+    .maps {
+        height: 100%;
     }
 }
 
