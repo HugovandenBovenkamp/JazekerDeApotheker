@@ -38,9 +38,11 @@
             </a>
           </div>
           <div class="col-xs-12 col-md-4">
-            <div class="home-block block2">
-              <h3>Medicijnenoverzicht</h3>
-            </div>
+            <a href="">
+              <div class="home-block block2">
+                <h3>Medicijnenoverzicht</h3>
+              </div>
+            </a>
           </div>
           <div class="col-xs-12 col-md-4">
             <a href="">

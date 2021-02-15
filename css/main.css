@@ -76,7 +76,7 @@ header nav a:hover {
 }
 
 .home-blocks-group {
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 .home-block {
@@ -84,22 +84,26 @@ header nav a:hover {
     display: flex;
     justify-content: center;
     border-radius: 8px;
+    -webkit-box-shadow: 0px 10px 44px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 44px -12px rgba(0,0,0,0.75);
+    box-shadow: 0px 20px 44px -19px rgba(0,0,0,0.75);
 }
 
 .home-block.block1 {
-    background: grey center/cover;
+    background: url(../assets/herhaalservice.jpg) center/cover;
 }
 
 .home-block.block2 {
-    background: grey center/cover;
+    background: url(../assets/medicijnoverzicht.jpg) center/cover;
 }
 
 .home-block.block3 {
-    background: grey center/cover;
+    background: url(../assets/inschrijven.jpg) center/cover;
 }
 
 .home-block h3 {
     color: #fff;
+    text-shadow: 1px 1px 10px #000;
     
 }
 
@@ -182,7 +186,7 @@ header nav a:hover {
     .maps {
         height: 250px;
     }
-    
+
     .service-content {
         margin-bottom: 20px;
     }
