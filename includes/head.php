@@ -25,7 +25,7 @@
             <div class="row">
                 <div class="col-md-10 offset-md-1">
                     <nav class="d-flex justify-content-between">
-                        <li><a href="index.php">Home</a></li>
+                        <li><a href="http://localhost/Apotheek">Home</a></li>
                         <li><a href="service.php">Service</a></li>
                         <li><a href="voorlichting.php">Voorlichting</a></li>
                         <li><a href="mijnapo.php">Mijn APO</a></li>
