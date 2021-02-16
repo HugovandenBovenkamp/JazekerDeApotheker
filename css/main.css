@@ -151,6 +151,33 @@ header nav a:hover {
 
 /* /Voorlichting pagina */
 
+/* Mijn apo pagina */
+
+form .button-form {
+    text-align: center;
+    background-color: #1A437A;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+    border-radius: 8px;
+    white-space: nowrap;
+    min-width: 100px;
+    height: 30px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+}
+
+
+/* /Mijn apo pagina */
+
+
+/* Contact pagina */
+
+
+
+
+/* /Contact pagina */
 
 /* media queries */
 
