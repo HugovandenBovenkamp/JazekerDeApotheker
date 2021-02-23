@@ -1,6 +1,6 @@
 <?php
-   include("includes/dbconnect.php");
-   include("includes/head.php");
+   include_once('includes/dbconnect.php');
+   include_once('includes/head.php');
 ?>
   
 <div class="container-fluid">
