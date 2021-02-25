@@ -16,7 +16,7 @@
             exit();
         }
         //input validatie voor characters username en fullname
-        if (userValid($username, $fullname) !== false) {
+        if (userValid($username, $fullname, $pw, $pwrep) !== false) {
             header("location: ../mijnapo.php?error=emptyinputfield");
             exit();
         }
@@ -25,6 +25,17 @@
             header("location: ../mijnapo.php?error=emptyinputfield");
             exit();
         }
+
+        if (pwMatch($pw, $pwrep) !== false) {
+            header("location: ../mijnapo.php?error=emptyinputfield");
+            exit();
+        }
+
+        if (userExists($conn, $username) !== false) {
+            header("location: ../mijnapo.php?error=emptyinputfield");
+            exit();
+        }
+        
 
         //functie die zorgt voor het verwerken van de data naar de database
         createUser($conn, $username, $fullname, $email, $pw);
