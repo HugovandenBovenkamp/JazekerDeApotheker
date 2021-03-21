@@ -16,7 +16,7 @@
             </div>
             <div class="form-group col-md-6">
                 <label for="email">E-mailadres</label>
-                <input type="text" class="form-control" name="email" id="#" placeholder="E-mailadres..>
+                <input type="text" class="form-control" name="email" id="#" placeholder="E-mailadres..">
             </div>
             <div class="form-group col-md-6">
                 <label for="Textbox">Bericht</label>

@@ -12,35 +12,35 @@
 
         // Checken of de velden leeg zijn
         if (emptySignup($username, $fullname, $email, $pw, $pwrep) !== false) {
-            header("location: ../mijnapo.php?error=emptyinputfield");
+            header("location: ../registratiepagina.php?error=emptyinput");
             exit();
         }
         //input validatie voor characters username en fullname
         if (userValid($username, $fullname, $pw, $pwrep) !== false) {
-            header("location: ../mijnapo.php?error=emptyinputfield");
+            header("location: ../registratiepagina.php?error=emptyinputfield");
             exit();
         }
-
+        // check of email geldig is
         if (emailValid($email) !== false) {
-            header("location: ../mijnapo.php?error=emptyinputfield");
+            header("location: ../registratiepagina.php?error=invalidemail");
             exit();
         }
-
+        // wachtwoord gelijk aan elkaar
         if (pwMatch($pw, $pwrep) !== false) {
-            header("location: ../mijnapo.php?error=emptyinputfield");
+            header("location: ../registratiepagina.php?error=passwordsdontmatch");
             exit();
         }
-
-        if (userExists($conn, $username) !== false) {
-            header("location: ../mijnapo.php?error=emptyinputfield");
+        // check gebruiker al in de database staat
+        if (userExists($conn, $username, $email) !== false) {   
+            header("location: ../registratiepagina.php?error=usernametaken");
             exit();
         }
         
 
         //functie die zorgt voor het verwerken van de data naar de database
-        createUser($conn, $username, $fullname, $email, $pw);
+        createUser($conn, $fullname, $email, $username, $pw);
 
     }
     else {
-        header("location: ../mijnapo.php");
+        header("location: ../registratiepagina.php");
     }
