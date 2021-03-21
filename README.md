@@ -11,4 +11,4 @@ Extra: Een gebruiker moet kunnen inloggen met zijn eigen login<br>
 Extra: Een gebruiker moet zijn eigen bestellingen kunnen zien<br>
 Extra: een gebruiker moet een bestelling kunnen doen
 
-Deadline: 19 maart
+Deadline: 31 Maart
